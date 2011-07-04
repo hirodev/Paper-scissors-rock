@@ -1,0 +1,87 @@
+#include <iostream>
+#include <cstdlib>
+#include <string.h>
+#include <stdio.h>
+
+using namespace std;
+
+int menuChoice();
+
+void args(){
+  cerr << "usage: rps" << endl;
+}
+
+int main(int argc, char **argv){
+  
+  if( argc != 1 ){
+    args();
+    return EXIT_FAILURE;
+  }
+  
+  cout << "Welcome to Rock, Paper, Scissors!" << endl;
+  
+  int won = 0;
+  int lost = 0;
+  
+  bool play = true;
+  while( play ){
+    
+    int choice = menuChoice();
+    
+    switch( choice ){
+    case 'R':
+    case 'r':
+      break;
+    case 'P':
+    case 'p':
+      break;
+    case 'S':
+    case 's':
+      break;
+    case 'Q':
+    case 'q':      
+      {    
+	cout << "You won " << won << " and lost " << lost << endl;
+	
+	if(won > lost){
+	  cerr << "Wow, congratulations." << endl;
+	}else if(won < lost){
+	    cout << "I see you have had enough losing!" << endl;
+	  }
+	  cout << "Quitter" << endl;
+	  play = false;
+	  
+	  break;
+	  
+	case default:
+	cout << "Invalid choice." << endl;
+      break;
+    }
+
+  }
+
+  return EXIT_SUCCESS;
+}
+
+int menuChoice(){
+  cout << endl;
+  cout << "Menu" << endl;
+  cout << "choose one:" << endl;
+  
+  cout << "R for Rock" << endl;
+  cout << "P for Paper" << endl;
+  cout << "S for Scissors" << endl;
+  cout << "Q to quit" << endl;
+
+  cout << endl;
+  cout << "Your choice? ";
+  
+  int choice = getc( stdin );
+
+  // throw away the enter key
+  getc( stdin );
+  
+  cout << endl;
+
+  return choice;
+}

@@ -1,0 +1,252 @@
+$ ./rps
+Welcome to Rock, Paper, Scissors!
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? r
+
+You chose
+Rock
+The computer chose
+Scissors
+You Win!
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? p
+
+You chose
+Paper
+The computer chose
+Paper
+It's a tie
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? p
+
+You chose
+Paper
+The computer chose
+Scissors
+You Lost
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? p
+
+You chose
+Paper
+The computer chose
+Paper
+It's a tie
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? p
+
+You chose
+Paper
+The computer chose
+Rock
+You Win!
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? s
+
+You chose
+Scissors
+The computer chose
+Scissors
+It's a tie
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? s
+
+You chose
+Scissors
+The computer chose
+Paper
+You Win!
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? r
+
+You chose
+Rock
+The computer chose
+Scissors
+You Win!
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? r
+
+You chose
+Rock
+The computer chose
+Scissors
+You Win!
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? s
+
+You chose
+Scissors
+The computer chose
+Paper
+You Win!
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? p
+
+You chose
+Paper
+The computer chose
+Paper
+It's a tie
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? s
+
+You chose
+Scissors
+The computer chose
+Rock
+You Lost
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? q
+
+You chose
+to Quit
+You won 6 and lost 2
+Wow, congratulations.
+Good bye.
+
+
+
+
+
+
+
+$ ./rps
+Welcome to Rock, Paper, Scissors!
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? P
+
+You chose
+Paper
+The computer chose
+Paper
+It's a tie
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? S
+
+You chose
+Scissors
+The computer chose
+Rock
+You Lost
+
+Menu
+choose one:
+R for Rock
+P for Paper
+S for Scissors
+Q to quit
+
+Your choice? q
+
+You chose
+to Quit
+You won 0 and lost 1
+I see you have had enough losing! Quitter...
+Good bye.
+
